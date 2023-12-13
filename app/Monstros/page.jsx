@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Monstros from "../../components/Monstros";
+import Monstros from "../../Components/Monstros";
 import styles from "../Monstros/monstros.module.css"
-import Sidebar from "../../components/Sidebar";
-import Footer from "../../components/Footer";
+import Sidebar from "../../Components/Sidebar";
+import Footer from "../../Components/Footer";
 
 const PaginaMonstros = () => {
   const [monstrosId, setMonstrosId] = useState(null);

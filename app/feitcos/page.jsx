@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Feiticos from "../../components/Feiticos";
+import Feiticos from "../../Components/Feiticos";
 import styles from "./feiticos.module.css"
-import Sidebar from "../../components/Sidebar.jsx"
-import Footer from "../../components/Footer";
+import Sidebar from "../../Components/Sidebar.jsx"
+import Footer from "../../Components/Footer";
 
 const PaginaFeiticos = () => {
   const [feiticosId, setFeiticosId] = useState(null);

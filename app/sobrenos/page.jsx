@@ -1,8 +1,8 @@
 'use client'
 import styles from "../sobrenos/page.module.css"
-import Footer from "../../components/Footer"
+import Footer from "../../Components/Footer"
 import Popup from 'reactjs-popup';
-import Sidebar from "../../components/Sidebar";
+import Sidebar from "../../Components/Sidebar";
 import Image from "next/image";
 
 
