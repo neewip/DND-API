@@ -1,0 +1,281 @@
+.sobrenos {
+    background-color: black;
+
+    
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.fotos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+
+.fotostudo {
+
+    flex-direction: column;
+    display: flex;
+
+}
+
+.nomes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.logo {
+
+    box-shadow: 15px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 20%;
+    height: 4em;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.nome1 {
+
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+
+}
+
+.nome1 p {
+
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+
+}
+
+.nome2 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome2 p {
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.nome3 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome3 p {
+    background-color: rgb(54, 54, 54)k;
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.nome4 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome4 p {
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.nome5 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome5 p {
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.nome6 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome6 p {
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.title {
+    box-shadow: 5px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+
+}
+
+
+
+
+/* modal */
+
+.modal {
+    font-size: 12px;
+    background-color: rgb(54, 54, 54);
+    width: 50em;
+    margin: 0 auto; 
+    border-radius: 6px;
+    box-shadow: 5px 10px #831B07;
+
+
+  }
+  .modal img {
+    margin-bottom: 2%;
+  }
+  .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+  }
+  .content {
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  .contexto{
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+    background-color: #e6e6e6;
+  }
+  
+  
+  
+  /* Button */
+  .button{
+    appearance: button;
+    background-color:  rgb(54, 54, 54);
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #831B07 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 3%;
+  }
+  
+  .button:focus {
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    text-decoration: none;
+  }
+  
+  .button:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button:not([disabled]):active {
+    box-shadow: #831B07 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+
+@media screen and (max-width: 800px) {
+    .sobrenos {
+
+        height: 100%;
+
+    }
+    
+    .fotos {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .nome1 {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+
+        width: 100%;
+
+    }
+
+    .modal {
+       
+        width: 20em;
+       
+    }
+
+    .modal img {
+        width: 100px;
+        height: 100px;
+    }
+}

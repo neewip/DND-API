@@ -1,0 +1,21 @@
+.dnd{
+    background-color: #831B07;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .dnd{
+        height:3em;
+        font-size: x-small;
+    }
+}

@@ -1,0 +1,196 @@
+.fotos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 6%;
+    
+
+}
+
+
+
+
+.fotostudo {
+    
+    flex-direction: column;
+    display: flex;
+    margin-right: 10%;
+    font-size: xx-large;
+    width: 100%;
+}
+
+.nomes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.logo {
+    display: flex;
+    box-shadow: 15px 20px #831B07;
+    text-align:center;
+    background-color: rgb(54, 54, 54);
+    width: 40%;
+    height: 5em;
+    margin-bottom: 5%;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    margin-left: 28%;
+
+}
+
+.nome1 {
+
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+
+}
+
+.nome1 p {
+
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+
+}
+
+.nome3 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome3 p {
+    background-color: rgb(54, 54, 54)k;
+    padding: 2%;
+}
+
+.nome3 input {
+    width: 20%;
+}
+
+.nome4 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome4 p {
+    background-color: rgb(54, 54, 54);
+    padding: 4%;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+.nome5 {
+    color: white;
+    flex-direction: row;
+    text-align:center;
+    background-color:black ;
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    padding: 8px;
+
+}
+
+.nome5 p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nome6 {
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    box-shadow: 5px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.titlee {
+    box-shadow: 5px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 70%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.quadrado {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+    height: 50px;
+}
+
+.monstro {
+    margin-top:2%
+}
+
+@media screen and (max-width: 800px) {
+    .sobrenos {
+
+        height: 100%;
+
+    }
+    
+    .fotos {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .nome1 {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+
+        width: 100%;
+
+    }
+
+    .nome5{
+
+        flex-direction: column;
+    }
+
+    .title{
+        box-shadow: 10px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+    }
+
+    .nome3 input {
+        width: 90%;
+    }
+
+    .monstro {
+        margin: 0 auto;
+    }
+}

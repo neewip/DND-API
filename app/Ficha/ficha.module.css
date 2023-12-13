@@ -1,0 +1,175 @@
+.container {
+    box-shadow: 15px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 50%;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container a {
+    text-decoration: underline;
+    color:blue;
+}
+
+.container img {
+    border: 4px solid darkred;
+}
+
+.title{
+    box-shadow: 15px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 20%;
+    height: 2em;    margin: 0 auto;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome, .nome2 {
+    background-color: #831B07;
+    width: 50%;
+    font-size: medium;
+}
+
+.ficha {
+    box-shadow: 15px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.ficha input {
+    width:45% ;
+}
+
+.ficha select {
+    width:45% ;
+}
+
+.div {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.black, .black2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.black {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+
+.black2 {
+    flex-direction: column;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.black2 input {
+    margin-top: 5%;
+    font-size: x-large;
+    border-radius: 4px;
+    width: 3em;
+}
+ 
+.nome2 {
+   width: 100%;
+}
+
+.div2 {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.div3 {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.div3 button {
+    height: 2.5em;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    border-radius: 4px;
+}
+.div2 button {
+margin-bottom: 9%;
+margin-top: 5%;
+height: 2.5em;
+border-radius: 4px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .title {
+        width: 60%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .ficha {
+        width: 80%;
+    }
+
+    .nome {
+        font-size: smaller;
+    }
+
+    .div2 {
+        font-size: x-small;
+        width: 40%;
+    }
+
+    .div2 button {
+        font-size: x-small;
+
+    }
+
+    .div3 {
+        font-size: smaller;
+        width: 80%;
+    }
+
+    .black2 input {
+       font-size: smaller;
+    }
+
+    .black2 {
+        width: 15%;
+        padding: 10px;
+    }
+
+.font {
+    font-size: x-small;
+
+}
+
+}

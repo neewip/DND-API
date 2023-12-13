@@ -1,0 +1,193 @@
+.h1 {
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    box-shadow: 5px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 32%;
+    height: 32%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+}
+
+.td {
+    background-color: black;
+}
+
+.td input {
+    width: 20%;
+   
+}
+
+
+
+
+
+.pesq {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.quadrado {
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+    height: 50px;
+}
+
+.tudo {
+
+    box-shadow: 5px 10px #831B07;
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 32%;
+
+    margin: 0 auto;
+    margin-bottom: 5%;
+
+    display: flex;
+
+    flex-direction: row;
+    padding: 4%;
+    justify-content: space-around;
+
+    align-items: center;
+
+    margin-bottom: 3%;
+
+}
+
+.nome {
+
+    background-color: black;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+    text-align: center;
+    background-color: rgb(54, 54, 54);
+    width: 32%;
+    height: 32%;
+    margin: 0 auto;
+    margin-top: 3%;
+
+
+}
+
+
+
+.um {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    margin-left: 8%;
+
+
+}
+
+.nome {
+    font-size: larger;
+}
+
+.um h2 {
+    margin-bottom: 10%;
+}
+
+.dois h2 {
+    margin-bottom: 15%;
+}
+.dois {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+
+}
+
+.tres {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+.quatro {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 5%;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .tudo {
+        width: 70%;
+        padding: 7%;
+        font-size: small;
+    }
+
+    .nome {
+        width: 70%;
+    }
+
+    .um {
+        margin-left: -0.1em;
+    }
+
+    .td input {
+        width: 90%;
+       
+    }
+
+}
