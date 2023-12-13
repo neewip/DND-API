@@ -1,4 +1,4 @@
-import styles from "@/app/sidebar.module.css"
+import styles from "./sidebar.module.css"
 import { FaBars } from "react-icons/fa";
 import Image from "next/image";
 

@@ -1,8 +1,8 @@
 "use client"
-import Sidebar from "@/components/Sidebar"
+import Sidebar from "../../components/Sidebar"
 import styles from "./home.module.css"
 import Image from "next/image"
-import Footer from "@/components/Footer"
+import Footer from "../../components/Footer"
 import Link from "next/link"
 
 

@@ -1,10 +1,10 @@
 "use client"
 
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "../../components/Sidebar";
 import styles from "./ficha.module.css"
 import Image from "next/image";
 import React, { useState } from "react";
-import Footer from "@/components/Footer";
+import Footer from "../../components/Footer";
 import Link from "next/link";
 
 
